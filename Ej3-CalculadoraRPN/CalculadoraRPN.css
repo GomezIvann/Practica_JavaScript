@@ -1,0 +1,72 @@
+html {
+	height: 100%;
+	background: white;
+	background-size: cover;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 298px;
+	height: 353px;
+    margin: auto;
+	margin-top: 5px;
+	padding: 2px;
+	background-color: rgb(77, 19, 19);
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+input:focus {
+	outline:0; /*eliminar borde azul al pulsar un input por defecto*/
+}
+input[id="expresion"] {
+	margin: -5px -3px 10px 10px;
+	width: 262px;
+	height: 25px;
+	font-size: 16px;
+	overflow: hidden;
+    cursor: default;
+	text-align: left;
+	color: #045096;
+	padding: 5px;
+	background-color: #CAE2C4;
+	box-shadow: inset -1px -1px 4px 1px #CAE2C4;
+}
+input{
+	width: 50px;
+	height: 30px;
+	border-radius: 3px;
+	background-color: #BDC3C7;
+	color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 19px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin: 1px -3px 5px 10px;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+input[id="enter"] {
+	width: 278px;
+    letter-spacing: 1px;
+    
+}
+input[id="borrar"] {
+    background: url(borrar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	background-color: #BDC3C7;
+    background-origin: content-box;
+}
+input[id="drop"]{
+    font-size: 13px;
+}
+input[type="button"]:hover{
+	background-color: #BEF9F0;
+}
+input[type="button"]:active{
+	box-shadow: 0px 1px 1px 0px #444651;
+}

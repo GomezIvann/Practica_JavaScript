@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 3</title>
+        <meta name="author" content="Iván Gómez Pinta"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Calculadora Basica"/>
+        <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css"/>
+    </head>
+    <body>
+        <script src="CalculadoraBasica.js"></script>
+        <h1>Calculadora Básica</h1>
+
+        <!--Botonera-->
+        <input type="text" id="expression" disabled />
+        <input type="button" value="mrc" onclick="calculadora.showMemory()" />
+        <input type="button" value="m-" onclick="calculadora.subMemory()" />
+        <input type="button" value="m+" onclick="calculadora.sumMemory()" />
+        <input type="button" value="/" onclick="calculadora.write('/')" />
+        <input type="button" value="7" onclick="calculadora.write(7)" />
+        <input type="button" value="8" onclick="calculadora.write(8)" />
+        <input type="button" value="9" onclick="calculadora.write(9)" />
+        <input type="button" value="*" onclick="calculadora.write('*')" />
+        <input type="button" value="4" onclick="calculadora.write(4)" />
+        <input type="button" value="5" onclick="calculadora.write(5)" />
+        <input type="button" value="6" onclick="calculadora.write(6)" />
+        <input type="button" value="-" onclick="calculadora.write('-')" />
+        <input type="button" value="1" onclick="calculadora.write(1)" />
+        <input type="button" value="2" onclick="calculadora.write(2)" />
+        <input type="button" value="3" onclick="calculadora.write(3)" />
+        <input type="button" value="+" onclick="calculadora.write('+')" />
+        <input type="button" value="0" onclick="calculadora.write(0)" />
+        <input type="button" value="." onclick="calculadora.write('.')" />
+        <input type="button" value="C" onclick="calculadora.deleteAll()" />
+        <input type="button" value="=" onclick="calculadora.evaluate()" />
+    </body>
+</html>

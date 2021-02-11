@@ -1,0 +1,56 @@
+html {
+	height: 100%;
+	background: white;
+	background-size: cover;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 234px;
+	height: 281px;
+    margin: auto;
+	margin-top: 5px;
+	padding: 2px;
+	background-color: #C7916C;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+input:focus {
+	outline:0; /*eliminar borde azul al pulsar un input por defecto*/
+}
+input[id="expression"] {
+	margin: -5px -3px 10px 8px;
+	width: 199px;
+	height: 25px;
+	font-size: 16px;
+	overflow: hidden;
+    cursor: default;
+	text-align: left;
+	color: #001BDC;
+	padding: 5px;
+	background-color: #CAE2C4;
+	box-shadow: inset -1px -1px 4px 1px #CAE2C4;
+}
+input {
+	width: 50px;
+	height: 30px;
+    font-size: 21px;
+	border-radius: 3px;
+	color: white;
+	background-color: #606265;
+	cursor: pointer;
+	float: left;
+	margin: 1px -3px 5px 8px;
+	text-align: center;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+input[type="button"]:hover {
+	background-color: #BEF9F0;
+	color: #606265;
+}
+input[type="button"]:active {
+	box-shadow: 0px 1px 1px 0px #444651;
+}
