@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 5</title>
+        <meta name="author" content="Iván Gómez Pinta"/>
+        <meta name="description" content="Ejercicio 5"/>
+        <link rel="stylesheet" type="text/css" href="Ejercicio5.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="Ejercicio5.js"></script>
+    </head>
+    <body>
+        <h1>EJERCICIO 5</h1>
+        <section>
+            <!--Tarea 1-->
+            <h2 id="tituloOcultable">Este título se puede ocultar y mostrar</h2>
+            <input type="button" value="Ocultar" onclick="titulo.ocultar()" />
+            <input type="button" value="Mostrar" onclick="titulo.mostrar()" />
+
+            <!--Tarea 2-->
+            <h2 id="tituloModificable">Este es un título modificable</h2>
+            <p>Nuevo título: <input type="text" id="campoTitulo" value="">
+            <input type="button" value="Cambiar" onclick="titulo.modificar()" /></p>
+
+            <!--Tarea 3-->
+            <p>Añade nuevos títulos a la página pulsando el botón 'Añadir'</p>
+            <p><input id="añadirTitulo" type="button" value="Añadir" onclick="titulo.añadir()" /></p>
+
+            <!--Tarea 4-->
+            <p>Número de título a borrar (Ej: para borrar "Título 1" introduce 1): <input type="text" id="tituloABorrar" value="1">
+            <input type="button" value="Borrar" onclick="titulo.borrar()" /></p>
+
+            <!--Tarea 5-->
+            <p>Muestra el padre y tipo cada elementos de la página pulsando el botón 'Información'</p>
+            <p><input id="infoTitulos" type="button" value="Información" onclick="titulo.mostrarInformacion()" /></p>
+
+            <!--Tarea 6-->
+            <p>Sumatorio de filas y columnas de una tabla</p>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+            </table>
+            <p>
+                <input type="text" id="resultado" value="" disabled>
+                <input type="button" value="Calcular" onclick="operacion.calcular()" />
+            </p> 
+        </section>
+        <footer>   
+          <a href="https://validator.w3.org/check?uri=referer"><img
+              src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+              alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" /></a>
+        </footer>
+    </body>
+</html>

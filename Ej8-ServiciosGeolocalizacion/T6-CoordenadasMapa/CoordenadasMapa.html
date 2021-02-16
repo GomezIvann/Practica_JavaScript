@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 12</title>
+    <meta name="author" content="Iván Gómez Pinta"/>
+    <meta name="description" content="Tarea 6"/>
+    <link href="CoordenadasMapa.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>LOCALIZADOR POR COORDENADAS</h1>
+    <section>
+        <p>Introduce las coordenadas geográficas: </p>
+        <p>Latitud:     <input id="lat" type="number" value="48.8534000"/> grados decimales</p>
+        <p>Longitud:    <input id="lng" type="number" value="2.3486000"/> grados decimales</p>
+        <p><input type="button" value="Cargar coordenadas" onclick="mapaDinamicoGoogle.initMap()" /></p>
+        <div id="mapa"></div>
+        <script src="CoordenadasMapa.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapaDinamicoGoogle.initMap"></script>
+    </section>
+    <footer>   
+          <a href="https://validator.w3.org/check?uri=referer"><img
+              src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+              alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" /></a>
+    </footer>
+</body>
+</html>

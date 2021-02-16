@@ -1,0 +1,2 @@
+Como usar geoxml3 y de dónde saqué el código:
+	-	https://github.com/geocodezip/geoxml3

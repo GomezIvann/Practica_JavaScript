@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio 12</title>
+    <meta name="author" content="Iván Gómez Pinta"/>
+    <meta name="description" content="Tarea 2"/>
+    <link href="GeoLocalization.css" type="text/css" rel="stylesheet"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="GeoLocalizacionExcepciones.js"></script>
+</head>
+<body>
+    <h1>GeoLocalizacion</h1>
+    <section id="ubicacion">
+        <h2>Datos sobre tu ubicación</h2>
+        <p>
+            <ul id = "datos" hidden>
+                <li id="0"> </li> 
+                <li id="1">Longitud: </li> 
+                <li id="2">Latitud: </li>
+                <li id="3">Precisión de la latitud y longitud: </li>
+                <li id="4">Altitud: </li>
+                <li id="5">Precisión de la altitud: </li>
+                <li id="6">Rumbo: </li>
+                <li id="7">Velocidad: </li>
+            </ul>            
+        </p>
+        <input type="button" value="Obtener mis coordenadas, altitud, rumbo y velocidad"
+                onclick="miPosicion.verTodo();"/>
+    </section>
+    <footer>   
+          <a href="https://validator.w3.org/check?uri=referer"><img
+              src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+              alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" /></a>
+    </footer>
+</body>
+</html>

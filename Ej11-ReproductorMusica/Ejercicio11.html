@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11</title>
+    <meta name="author" content="Iván Gómez Pinta" />
+    <meta name="description" content="Ejercicio 11" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <script src="DOMEdit.js"></script>
+    <script src="DragAndDrop.js"></script>
+    <script src="ReproductorAudio.js"></script>
+</head>
+<body>
+    <h1>Reproductor de música</h1>
+    <section id="seccionPrincipal">
+        <h2>Barra de progreso con Canvas</h2>
+        <p>¡Busca un audio y reprodúcelo!</p>
+        <div id="contenedor">
+            <div id="soltarArchivo" ondrop="dad.handleDrop(event)" ondragover="dad.allowDrop(event)">
+                Suelta aquí tu archivo
+            </div>
+            <div id="audioContenedor">
+                <audio id="archivoAudio"></audio>
+            </div>
+        </div>
+        <canvas id="canvas" width="450" height="20"></canvas>
+        <p id="botonera">
+            <button id="reproducir" onclick="reproductor.reproducir()" disabled> ▶ </button>
+            <button id="reiniciar" onclick="reproductor.reiniciar()" disabled> ↺ </button>
+            <button id="retroceder" onclick="reproductor.retroceder()" disabled> ◀◀ </button>
+            <button id="avanzar" onclick="reproductor.avanzar()" disabled> ▶▶ </button>
+        </p>
+    </section>
+    <footer id = "footer">   
+        <a href="https://validator.w3.org/check?uri=referer"><img
+            src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+            alt="HTML5 Válido" title="HTML5 Válido" height="64" width="63" /></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img 
+            style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /></a>
+    </footer>
+</body>
+</html>

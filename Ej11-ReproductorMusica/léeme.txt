@@ -1,0 +1,10 @@
+API's utilizadas:
+	- DOM
+	- Drag and Drop
+	- Canvas
+	- File API
+	- Web Audio
+	(http://html5index.org/)
+
+La barra de progreso de la reproducción es clickeable.
+Solo reproduce archivos de audio, el resto solo los lee.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Juego clásico Piedra Papel o Tijera</title>
+        <meta name="author" content="Iván Gómez Pinta"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Clásico juego de piedra papel o tijera" />
+        <link rel="stylesheet" type="text/css" href="PiedraPapelTijera.css" />
+    </head>
+    <body>
+        <script src="PiedraPapelTijera.js"></script>
+        <h1>Piedra, Papel o Tijera</h1>
+        <section id="juego">
+            <h2>¡Consigue 5 puntos para llevarte la victoria!</h2>
+            <p id="computadora">Computadora: 0 puntos</p>
+            <p id="zona_computadora">
+                <img id="imgComputadora" alt="Imagen jugada computadora" src="multimedia/fondo.png"/>
+            </p>
+            <input type="text" id="resultado" disabled />
+            <p id="zona_jugador"> 
+                <img id="imgJugador" alt="Imagen jugada jugador" src="multimedia/fondo.png"/>
+            </p>
+            <p id="jugador">Jugador: 0 puntos</p>
+            <p id="botonera">
+                <button id="piedra" onclick="juego.pulsa('piedra')">
+                    <img alt="Piedra" src='multimedia/piedra.png'/>
+                </button>
+                <button id="papel" onclick="juego.pulsa('papel')">
+                    <img alt="Papel" src='multimedia/papel.png'/>
+                </button>
+                <button id="tijeras" onclick="juego.pulsa('tijera')">
+                    <img alt="Tijera" src='multimedia/tijera.png'/>
+                </button>
+            </p>
+        </section>
+</body>
+</html>

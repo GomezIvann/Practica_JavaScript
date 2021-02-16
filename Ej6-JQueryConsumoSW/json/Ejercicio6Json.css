@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #a01515;
+}
+h1{
+    font-size: 1.80em;
+    border-bottom: 0.05em solid #a01515;
+}
+h2{
+    font-size: 1.6em;
+}
+h3{
+    font-style: italic;
+    font-size: 1.5em;
+}
+input[type="button"] {
+	height: 30px;
+	border-radius: 5px;
+	background-color: #BDC3C7;
+    font-weight: bold;
+    font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	margin: 1px -3px 5px 10px;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+input[type="button"]:focus {
+	outline:0; /*eliminar borde azul al pulsar un input por defecto*/
+}
+input[type="button"]:hover {
+	background-color: #BEF9F0;
+}
+footer{
+    margin-top:2em;
+}

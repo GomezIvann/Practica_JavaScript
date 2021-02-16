@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #a01515;
+}
+h1{
+    font-size: 2em;
+    border-bottom: 0.05em solid #a01515;
+}
+#mapa {
+    height: 500px;
+    width: 100%;
+}
+footer{
+    margin-top: 30px;
+}

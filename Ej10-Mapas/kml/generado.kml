@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:kml="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>Mis rutas</name>
+      <Style id="red">
+         <LineStyle>
+            <color>501400FF</color>
+            <width>4</width>
+         </LineStyle>
+         <PolyStyle>
+            <color>501400FF</color>
+         </PolyStyle>
+      </Style>
+      <Placemark>
+         <name>Ruta Senda del Oso</name>
+         <description>La senda del oso es la via verde más transitada de Asturias. Se levanta sobre dos antiguos trazados de ferrocarril mineros, el primero va desde el Valle de Quirós a la estación de trubia, y el segundo desde Caranga de Abajo a las minas de Teverga. Atraviesa los concejos de Quirós, Santo Adriano y Proaza.</description>
+         <styleUrl>#red</styleUrl>
+         <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absoluto</altitudeMode>
+            <coordinates>-5.9766922,43.0813848,1394 -6.010866,43.1988251,335 -5.994094,43.289537,553 -6.0579303,43.1233627,813</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Ruta Vía de la Plata</name>
+         <description>Esclavos y militares romanos se dieron a la tarea de unir las ciudades principales de Emerita Augusta (Mérida) y Asturica (Astorga, en León). Es la Vía de la Plata antigua, un canal de comunicación fundamental para el Imperio. Conocida también como “Camino Mozárabe”, la Vía de la Plata se empezó a construir en el s. II a.C., entre las batallas que enfrentaron a romanos contra lusos. En total son cerca de 463 km de extensión, aunque puedes comenzar desde Sevilla (Italica) o incluso Cádiz.</description>
+         <styleUrl>#red</styleUrl>
+         <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absoluto</altitudeMode>
+            <coordinates>-6.0246199,42.4183529,841 -6.3443977,38.9174665,236 -0.5579822,40.4940464,1686 -5.857303,40.317844,712</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Ruta Aragón profundo</name>
+         <description>Parte muy cerca de Motorland Aragón, por lo que puede ser una buena oportunidad para visitar el circuito de velocidad. De ahí, nos dirigiremos a Torrevelilla, localidad situada entre las cuencas de los ríos Guadalope y Mezquín, para después proseguir hasta el Embalse de Calanda, que cuenta con una extensión de 312 hectáreas -equivalente a unos 600 campos de fútbol-. No puedes dejar de visitar las Grutas de Cristal, cerca de la localidad de Molinos, para admirar su peculiar paisaje subterráneo.</description>
+         <styleUrl>#red</styleUrl>
+         <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absoluto</altitudeMode>
+            <coordinates>-0.7639373,41.3787291,409 -0.107291,41.290291,155 -1.885015,40.844298,1067 -0.883089,41.820868,246</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Ruta Senda del rio Ñora</name>
+         <description>Esta preciosa senda te invita a descubrir el frondoso cauce del arroyo La Ñora, repleto de bosques aledaños llenos de magia, de puentes peatonales de madera que cruzan este maravilloso arroyo que no dejará de serpentear ante nosotros, y de molinos antiguos que aún conservan partes originales, para llegar finalmente a la maravillosa playa de La Ñora, donde podrás disfrutar de un espectacular paisaje de la costa asturiana y de sus acantilados.</description>
+         <styleUrl>#red</styleUrl>
+         <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absoluto</altitudeMode>
+            <coordinates>-5.578867,43.530222,53 -5.5893699,43.5471766,26 -5.6139426,43.5504886,86 -5.6139426,43.5504886,86</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Ruta El camino de Santiago</name>
+         <description>El Camino de Santiago o peregrinación de Santiago de Compostela es una senda de peregrinación católica de origen medieval cuyo propósito es llegar a la tumba atribuida al apóstol Santiago el Mayor, situada en la cripta de la catedral de Santiago de Compostela en Galicia (España). Es la ruta más antigua y concurrida del viejo continente. Se trata de un «camino sembrado de numerosas manifestaciones de fervor, de arrepentimiento, de hospitalidad, de arte y de cultura, que nos habla de manera elocuente de las raíces espirituales del Viejo Continente».</description>
+         <styleUrl>#red</styleUrl>
+         <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absoluto</altitudeMode>
+            <coordinates>-1.2380129,43.1679394,157 -7.462,42.0614,479 -2.86338,39.9804,410 -8.5442526,42.8798603,263</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

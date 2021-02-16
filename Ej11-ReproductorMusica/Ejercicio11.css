@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #a01515;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 0.05em solid #a01515;
+}
+#seccionPrincipal {
+    width: 650px;
+}
+#canvas {
+    margin: 20px auto auto auto;
+    border: 1px solid black;
+}
+#contenedor {
+    width: 430px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#soltarArchivo {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    color: #bbb;
+}
+li {
+    font-weight: bold;
+}
+button {
+    margin-right: 5px;
+    height: 30px;
+    width: 50px;
+	border-radius: 5px;
+	background-color: #BDC3C7;
+    font-weight: bold;
+    font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+button:focus {
+	outline:0; /*eliminar borde azul al pulsar un input por defecto*/
+}
+footer{
+    margin-top: 50px;
+}
